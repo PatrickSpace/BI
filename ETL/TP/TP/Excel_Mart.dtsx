@@ -11,8 +11,8 @@
   DTS:LocaleID="10250"
   DTS:ObjectName="Excel_Mart"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{E291104D-8C72-4B0B-B485-3CD9EEEFDE4E}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{B492B252-CEC4-4F6D-91D6-A99F3243ED34}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1538,7 +1538,8 @@
                       name="F14" />
                     <externalMetadataColumn
                       refId="Package\Llenar Compras\Leer Compras.Outputs[Salida de origen de Excel].ExternalColumns[F15]"
-                      dataType="r8"
+                      dataType="wstr"
+                      length="255"
                       name="F15" />
                     <externalMetadataColumn
                       refId="Package\Llenar Compras\Leer Compras.Outputs[Salida de origen de Excel].ExternalColumns[F16]"
@@ -2004,7 +2005,8 @@
                       name="SK_Viaje" />
                     <externalMetadataColumn
                       refId="Package\Llenar DimViajes\Llenar Dim Viajes.Inputs[Entrada de destino de OLE DB].ExternalColumns[CodViaje]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="4"
                       name="CodViaje" />
                   </externalMetadataColumns>
                 </input>
@@ -6161,6 +6163,10 @@
           Id="Package\Llenar Broker"
           TopLeft="337.333333333333,251" />
         <NodeLayout
+          Size="152,41.6"
+          Id="Package\Llenar Compras"
+          TopLeft="811.771440706448,364.235298519069" />
+        <NodeLayout
           Size="156.8,41.6"
           Id="Package\Llenar DimViajes"
           TopLeft="836,253" />
@@ -6460,19 +6466,15 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Llenar Compras"
-          TopLeft="811.771440706448,364.235298519069" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 8]"
           TopLeft="612.013333333333,132.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="275.758107373115,231.635298519069"
+              EndConnector="216.329534932481,231.635298519069"
               Start="0,0"
-              End="275.758107373115,224.135298519069">
+              End="216.329534932481,224.135298519069">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -6483,13 +6485,13 @@
                     Point2="0,70.2038911232834"
                     Point3="4,70.2038911232834" />
                   <mssgle:LineSegment
-                    End="271.758107373115,70.2038911232834" />
+                    End="212.329534932481,70.2038911232834" />
                   <mssgle:CubicBezierSegment
-                    Point1="271.758107373115,70.2038911232834"
-                    Point2="275.758107373115,70.2038911232834"
-                    Point3="275.758107373115,74.2038911232834" />
+                    Point1="212.329534932481,70.2038911232834"
+                    Point2="216.329534932481,70.2038911232834"
+                    Point3="216.329534932481,74.2038911232834" />
                   <mssgle:LineSegment
-                    End="275.758107373115,224.135298519069" />
+                    End="216.329534932481,224.135298519069" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6584,6 +6586,96 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Llenar Broker\Leer Broker">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Llenar Compras">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="143.2,41.6"
+          Id="Package\Llenar Compras\Leer Compras"
+          TopLeft="454.4,102.4" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\Llenar Compras\Cargar Compras"
+          TopLeft="449.6,295.2" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Llenar Compras\Conversión de datos"
+          TopLeft="436,199.2" />
+        <EdgeLayout
+          Id="Package\Llenar Compras.Paths[Salida de origen de Excel]"
+          TopLeft="524.6,144">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55.2"
+              Start="0,0"
+              End="0,47.7">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Llenar Compras.Paths[Salida de conversión de datos]"
+          TopLeft="525,240.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54.4"
+              Start="0,0"
+              End="0,46.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Llenar Compras\Leer Compras">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Llenar Compras\Cargar Compras">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6793,6 +6885,10 @@
           Id="Package\Llenar Fechas\Leer Fechas"
           TopLeft="304.857142088365,21.0705869740681" />
         <NodeLayout
+          Size="231.2,41.6"
+          Id="Package\Llenar Fechas\Formatear Smeestre y Trimestre"
+          TopLeft="266.4,348" />
+        <NodeLayout
           Size="244.8,41.6"
           Id="Package\Llenar Fechas\Agregar Mes, Semestre y Trimestre"
           TopLeft="252.000004291535,261.60000335469" />
@@ -6800,50 +6896,6 @@
           Size="175.2,41.6"
           Id="Package\Llenar Fechas\Conversión de datos"
           TopLeft="278.571427695605,103.894116257136" />
-        <EdgeLayout
-          Id="Package\Llenar Fechas.Paths[Salida de conversión de datos]"
-          TopLeft="369.085715823271,145.494116257136">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37.4235333670382"
-              Start="0,0"
-              End="0,29.9235333670382">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.9235333670382" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Llenar Fechas.Paths[Salida de columna derivada]"
-          TopLeft="373.200004121235,224.517649624175">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37.0823537305151"
-              Start="0,0"
-              End="0,29.5823537305151">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.5823537305151" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Llenar Fechas.Paths[Salida de origen de Excel]"
           TopLeft="369.314284891985,62.6705869740681">
@@ -6858,32 +6910,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,33.7235292830682" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="231.2,41.6"
-          Id="Package\Llenar Fechas\Formatear Smeestre y Trimestre"
-          TopLeft="266.4,348" />
-        <EdgeLayout
-          Id="Package\Llenar Fechas.Paths[Salida de columna derivada1]"
-          TopLeft="378.200002145767,303.20000335469">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44.79999664531"
-              Start="0,0"
-              End="0,37.29999664531">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.29999664531" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6918,6 +6944,72 @@
                     Point3="-8.94285784351598,30.770588432629" />
                   <mssgle:LineSegment
                     End="-8.94285784351598,46.041176865258" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Llenar Fechas.Paths[Salida de conversión de datos]"
+          TopLeft="369.085715823271,145.494116257136">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.4235333670382"
+              Start="0,0"
+              End="0,29.9235333670382">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.9235333670382" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Llenar Fechas.Paths[Salida de columna derivada1]"
+          TopLeft="378.200002145767,303.20000335469">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.79999664531"
+              Start="0,0"
+              End="0,37.29999664531">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.29999664531" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Llenar Fechas.Paths[Salida de columna derivada]"
+          TopLeft="373.200004121235,224.517649624175">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.0823537305151"
+              Start="0,0"
+              End="0,29.5823537305151">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5823537305151" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7315,96 +7407,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Llenar Viajes\Origen de Excel">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Llenar Compras">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="143.2,41.6"
-          Id="Package\Llenar Compras\Leer Compras"
-          TopLeft="454.4,102.4" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\Llenar Compras\Cargar Compras"
-          TopLeft="449.6,295.2" />
-        <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\Llenar Compras\Conversión de datos"
-          TopLeft="436,199.2" />
-        <EdgeLayout
-          Id="Package\Llenar Compras.Paths[Salida de origen de Excel]"
-          TopLeft="524.6,144">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,55.2"
-              Start="0,0"
-              End="0,47.7">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47.7" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Llenar Compras.Paths[Salida de conversión de datos]"
-          TopLeft="525,240.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,54.4"
-              Start="0,0"
-              End="0,46.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Llenar Compras\Leer Compras">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Llenar Compras\Cargar Compras">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
