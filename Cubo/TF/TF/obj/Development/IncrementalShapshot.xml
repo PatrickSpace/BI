@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>VESGRAEunjAOdfN2ZhN/MekLPXQ=18/11/2020 09:01:4817/11/2020 18:55:22</TimeStamp>
+        <TimeStamp>dO9y8frX+N70Sde7hHdBjwy+t5Y=23/11/2020 15:24:0217/11/2020 18:55:22</TimeStamp>
         <ID>
           <String>DV_DIVE</String>
         </ID>
@@ -47,7 +47,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6qnuymwN2PTcURYnlAGofXxi8aw=17/11/2020 21:58:4017/11/2020 19:09:17</TimeStamp>
+        <TimeStamp>mg5l3tkYYEZpQZJD/D+rVfMrNxM=23/11/2020 14:06:2017/11/2020 19:09:17</TimeStamp>
         <ID>
           <String>Fechas</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xdPXo48uQIXU6wzdNV5fY1QwmYA=17/11/2020 19:11:0817/11/2020 19:11:08</TimeStamp>
+        <TimeStamp>ME/ja2hFhVYowr9WFPfKRlbb1kE=21/11/2020 22:07:3717/11/2020 19:11:08</TimeStamp>
         <ID>
           <String>Repuesto</String>
         </ID>
@@ -75,14 +75,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>SO41OzllSTPbDZyq0Y//LFkpKA4=17/11/2020 19:12:4517/11/2020 19:12:45</TimeStamp>
+        <TimeStamp>EwAikLZOgEdS+EnAtVOf7eSxi+A=23/11/2020 15:31:3117/11/2020 19:12:45</TimeStamp>
         <ID>
           <String>Viaje</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>wOmF45m4s0UmgWiYXOhDJN//G/4=18/11/2020 09:08:1417/11/2020 19:16:24Bd1wt9RIBleGXSOcEvKiVpBU4YQ=17/11/2020 19:16:2617/11/2020 19:16:24</TimeStamp>
+        <TimeStamp>Et567Io2gs6wyJ1AJE8WJMHxGwQ=23/11/2020 16:01:0917/11/2020 19:16:24Bd1wt9RIBleGXSOcEvKiVpBU4YQ=17/11/2020 19:16:2617/11/2020 19:16:24</TimeStamp>
         <ID>
           <String>Analisis_Divemotor</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-18T14:08:16.563333Z</LastDeployed>
+  <LastDeployed>2020-11-23T21:01:15.76Z</LastDeployed>
 </DeploymentSnapshot>

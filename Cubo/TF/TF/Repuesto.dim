@@ -1,11 +1,37 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="42f40f37-89c8-487a-b982-6d7eaf183861" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1990dfe7-d8ec-4378-b465-ad779fbb2586" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Repuesto</ID>
   <Name>Repuesto</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1983" scrolltop="-6932" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7006" y="16171" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TDim_Repuesto" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TDim_Repuesto" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1983</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6932</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -40,45 +66,45 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="884c11cc-6768-4ecf-ab66-5cae84f13d37">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1670de69-944b-4539-9559-b18371aed10e">
     <DataSourceViewID>DV_DIVE</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="e016c08a-fd48-402e-913f-9ac570f469d3">
+  <ErrorConfiguration dwd:design-time-name="5c9a5c62-5164-40d5-a500-c8258b98c992">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="f50bbbae-4d53-41d2-a050-837702c7f2a1">
+    <Attribute dwd:design-time-name="a11400ea-9e76-470a-90f8-975f17032473">
       <ID>Sk Repuesto</ID>
-      <Name>Sk Repuesto</Name>
+      <Name>Repuesto</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d84bfa9e-0d6c-40a3-a8b4-f2b1b36830af">
+        <KeyColumn dwd:design-time-name="ff1ca7a7-77c1-49b7-a85a-a4eb10f39387">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="937fb241-9503-4f57-a945-d30c5a80d4fe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae684be5-e639-44ec-bfa5-d0ec599d4a7a">
             <TableID>dbo_TDim_Repuesto</TableID>
             <ColumnID>Sk_Repuesto</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4b1c2d30-67b6-4be7-92d9-692cfa5dc31c">
+      <NameColumn dwd:design-time-name="0e3a0651-fef7-4112-bf32-03021996241c">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="1922f62a-f473-4e05-8195-2acc148ac389">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fe430a24-77a2-4faa-96dc-adf87bd93337">
           <TableID>dbo_TDim_Repuesto</TableID>
           <ColumnID>Nombre</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="2cde916c-a232-43cc-8918-54db9da3bba5">
+        <AttributeRelationship dwd:design-time-name="f18030f6-8d51-4f2b-8c2b-d0cfa1008d5d">
           <AttributeID>Categoria</AttributeID>
           <Name>Categoria</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="47a1acc2-f372-4e28-ad96-3b9663cb305f">
+        <AttributeRelationship dwd:design-time-name="63daa02f-8185-4a8f-af34-bea1258a9fd5">
           <AttributeID>Fabricante</AttributeID>
           <Name>Fabricante</Name>
         </AttributeRelationship>
@@ -86,14 +112,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1569ca96-026e-40f5-9f7c-14e12a756d91">
+    <Attribute dwd:design-time-name="7d720ec0-aaf1-4f53-8308-759671039307">
       <ID>Categoria</ID>
       <Name>Categoria</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a6329893-1e3b-4658-b290-018644077879">
+        <KeyColumn dwd:design-time-name="63df6726-26e3-46e1-bf53-257f9dbfa84c">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="af7cac4d-b8aa-4eb7-9510-c24a8390640b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c018a33a-1230-4cc0-aeff-bc1176b1680a">
             <TableID>dbo_TDim_Repuesto</TableID>
             <ColumnID>Categoria</ColumnID>
           </Source>
@@ -103,14 +129,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b1bdbcba-553a-4888-9690-e50f243a4395">
+    <Attribute dwd:design-time-name="1cefa073-f8e0-432d-bbbc-2a41699a1700">
       <ID>Fabricante</ID>
       <Name>Fabricante</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a5d889af-92ba-4988-ab72-1d1777ded7f5">
+        <KeyColumn dwd:design-time-name="2b3d7047-a2f6-4acc-a47b-0cb1cb96d96d">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="60390411-5a32-4757-b8b9-577939bb3ffa">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c4f14f9-c987-4841-b5a7-e637b026851c">
             <TableID>dbo_TDim_Repuesto</TableID>
             <ColumnID>Fabricante</ColumnID>
           </Source>

@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="89491fc8-3184-4ba4-959a-bff5c04527b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a76acab7-b677-413a-9c12-c6ded09f4902" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DV_DIVE</ID>
   <Name>DV_DIVE</Name>
   <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
@@ -31,7 +31,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="46" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4437" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="18267" y="17463" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="47" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4437" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24723" y="17463" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                   </font>
@@ -130,7 +130,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TDim_Viaje" left="2174" top="7883" logicalid="31" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TDim_Viaje" left="13294" top="-922" logicalid="31" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
                   </control>
@@ -221,26 +221,6 @@
                     <point x="10872" y="381" />
                     <point x="10861" y="381" />
                     <point x="10861" y="2540" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="4375" top="6272" logicalid="36" controlid="14" masterid="0" hint1="0" hint2="0" width="1033" height="2111" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[Fact_Compra-TDim_Viaje]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="1" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="4774" y="7883" />
-                    <point x="4774" y="7326" />
-                    <point x="5108" y="7326" />
-                    <point x="5108" y="6572" />
                   </connector>
                 </ddscontrol>
                 <ddscontrol controlprogid="MSDDS.Polyline" left="13651" top="2933" logicalid="37" controlid="15" masterid="0" hint1="0" hint2="0" width="1879" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -401,6 +381,26 @@
                     <point x="10808" y="8848" />
                     <point x="11961" y="8848" />
                     <point x="11961" y="7366" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="13295" top="167" logicalid="46" controlid="24" masterid="0" hint1="0" hint2="0" width="799" height="2673" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Viaje-TDim_Viaje]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="2" sourceattachpoint="1" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13694" y="666" />
+                    <point x="13694" y="1603" />
+                    <point x="13611" y="1603" />
+                    <point x="13611" y="2540" />
                   </connector>
                 </ddscontrol>
               </dds>
@@ -673,7 +673,6 @@
           <msdata:Relationship name="Fact_Compra-TDim_Repuesto" msdata:parent="dbo_TDim_Repuesto" msdata:child="dbo_Fact_Compra" msdata:parentkey="Sk_Repuesto" msdata:childkey="SK_Repuesto" />
           <msdata:Relationship name="Fact_Compra-TDim_Estado" msdata:parent="dbo_TDim_Estado" msdata:child="dbo_Fact_Compra" msdata:parentkey="SK_Estado" msdata:childkey="SK_Estado" />
           <msdata:Relationship name="Fact_Viaje-TDim_Estado" msdata:parent="dbo_TDim_Estado" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Estado" msdata:childkey="SK_Estado" />
-          <msdata:Relationship name="Fact_Compra-TDim_Viaje" msdata:parent="dbo_TDim_Viaje" msdata:child="dbo_Fact_Compra" msdata:parentkey="Sk_Viaje" msdata:childkey="SK_Viaje" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Fact_Viaje-TDim_Transporte" msdata:parent="dbo_TDim_Transporte" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Transporte" msdata:childkey="SK_Transporte" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Fact_Viaje-TDim_Pais" msdata:parent="dbo_TDim_Pais" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Pais" msdata:childkey="SK_Origen" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Fact_Viaje-TDim_Pais1" msdata:parent="dbo_TDim_Pais" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Pais" msdata:childkey="SK_Destino" msprop:IsLogical="True" msprop:Description="" />
@@ -682,6 +681,7 @@
           <msdata:Relationship name="Fact_Viaje-TDim_Fechas1" msdata:parent="dbo_TDim_Fechas" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Fecha" msdata:childkey="SK_FechaLlegada" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Fact_Viaje-TDim_Fechas2" msdata:parent="dbo_TDim_Fechas" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Fecha" msdata:childkey="SK_FechaSalida" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Fact_Viaje-TDim_Fechas3" msdata:parent="dbo_TDim_Fechas" msdata:child="dbo_Fact_Viaje" msdata:parentkey="SK_Fecha" msdata:childkey="SK_FechaProyectada" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Fact_Viaje-TDim_Viaje" msdata:parent="dbo_TDim_Viaje" msdata:child="dbo_Fact_Viaje" msdata:parentkey="Sk_Viaje" msdata:childkey="SK_Viaje" msprop:IsLogical="True" msprop:Description="" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>
