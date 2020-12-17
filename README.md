@@ -1,10 +1,10 @@
 # Divemotor-Analytics
 Este trabajo inicia con la construcción de un modelo dimensional incluyendo todas sus fases previas.
-1 Definición de requerimientos clave para medición de KPIs y datos escenciales para los procesos de Compra e Importación.
-2 Diseño de modelos Starnet por cada requerimiento encontrado.
-3 Diseño del Bus Matrix (Medidas x Procesos) de la solución.
-4 Definir medidas y dimensiones a utilizar.
-5 Construir el modelo dimensional lógico (Base de Datos)  
+1. Definición de requerimientos clave para medición de KPIs y datos escenciales para los procesos de Compra e Importación.
+2. Diseño de modelos Starnet por cada requerimiento encontrado.
+3. Diseño del Bus Matrix (Medidas x Procesos) de la solución.
+4. Definir medidas y dimensiones a utilizar.
+5. Construir el modelo dimensional lógico (Base de Datos)  
 
 Requisitos para implementar la solución:
 - Visual Studio 2015
