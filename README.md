@@ -20,3 +20,7 @@ Esta solución tiene 2 paquetes que extraen y transforman datos a partir de un e
 Para realizar la integración es necesario realizar una conexión con Analysis Service dentro del SQL Server Management Studio.
 En esta etapa del proyecto se integran las medidas y las dimensiones en una herramienta denominada Cubo Dimensional, una solución incluida dentro de Visual Studio. Para la integración se construyó un Data Source View definiendo las medidas y dimensiones acorde al modelo dimensional.
 *Para abrir la solución solo es necesario hacer doble click en el archivo TF.sln en la carpeta Cubo/TF*
+
+## Backup y Datos
+Los datos iniciales se encuentran en la carpeta Datos.
+El backup de la base de datos (modelo dimensional) se encuentra en la carpeta Cubo
